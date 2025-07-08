@@ -1,16 +1,62 @@
-<<<<<<< HEAD
-# React + Vite
+# 📊 Chart Online
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Chart Online** is a modern web application that transforms Excel data into beautiful and meaningful visualizations (bar, pie, and line charts) within minutes — no technical skills required.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- ✅ Convert Excel files to charts in seconds
+- 🎨 Supports bar, pie, and line chart types
+- 📂 Upload multiple files and spreadsheets
+- ⚙️ Built with React + Tailwind CSS
+- 🌗 Dark mode support
+- ✨ Smooth animations with Framer Motion
+- 📱 Responsive and mobile-ready UI
+- ❓ FAQ and How-It-Works sections
+- 📦 Lightweight and fast
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# ChartOnline
->>>>>>> d6e5f98d663aa3ae64a7a7f7156a999ec51c4979
+---
+
+## 🔧 Tech Stack
+
+- **React.js**
+- **Tailwind CSS**
+- **Framer Motion** (for animations)
+- **Headless UI** (for FAQ accordion)
+- **Lucide React** (icons)
+- **Heroicons** (FAQ icons)
+- **Vite** (build tool)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/chart-online.git
+cd chart-online
+
+---
+
+## Install Dependencies
+- npm install
+
+## Start the Development Server
+- npm run dev
+
+## 📁 Project Structure
+src/
+├── assets/festure          # Static images used in features
+|   ├── css
+|   |   ├── index.css           # Tailwind base styles
+├── App.jsx          # Root component
+│── FAQ.jsx
+│── Feature.jsx
+│── Footer.jsx
+│── Hero.jsx
+│── HowItWorks.jsx
+├── main.jsx         # Vite entry point
+│── Navbar.jsx
+│── ThemeToggle.jsx  
