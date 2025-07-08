@@ -38,7 +38,7 @@
 git clone https://github.com/your-username/chart-online.git
 cd chart-online
 
----
+```
 
 ## Install Dependencies
 - npm install
