@@ -47,6 +47,7 @@ cd chart-online
 - npm run dev
 
 ## 📁 Project Structure
+```bash
 src/
 ├── assets/festure          # Static images used in features
 |   ├── css
@@ -60,3 +61,4 @@ src/
 ├── main.jsx         # Vite entry point
 │── Navbar.jsx
 │── ThemeToggle.jsx  
+```bash
